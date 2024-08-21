@@ -17,10 +17,10 @@ function redirectBack() {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "amanakhil336@gmail.com";
+    $to = "sagaraman530@gmail.com";
     $subject = "Test Email from PHP";
     $message = "This is a test email sent from PHP script.";
-    $from = "sagaraman530@gmail.com";
+    $from = "amanakhil336@gmail.com";
 
     // Send the email
     if (sendEmail($to, $subject, $message, $from)) {
